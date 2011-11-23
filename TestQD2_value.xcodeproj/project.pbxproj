@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5232902147C7CDC00D1009D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5232901147C7CDC00D1009D /* UIKit.framework */; };
+		E5232904147C7CDC00D1009D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5232903147C7CDC00D1009D /* Foundation.framework */; };
+		E5232906147C7CDC00D1009D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5232905147C7CDC00D1009D /* CoreGraphics.framework */; };
+		E523290C147C7CDC00D1009D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E523290A147C7CDC00D1009D /* InfoPlist.strings */; };
+		E523290E147C7CDC00D1009D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E523290D147C7CDC00D1009D /* main.m */; };
+		E5232912147C7CDC00D1009D /* lmvAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5232911147C7CDC00D1009D /* lmvAppDelegate.m */; };
+		E5232919147C7D1E00D1009D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5232918147C7D1E00D1009D /* MainWindow.xib */; };
+		E5232929147C83D700D1009D /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5232926147C837100D1009D /* libQuickDialog.a */; };
+		E523292F147C890A00D1009D /* testQDChangeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E523292E147C890A00D1009D /* testQDChangeValue.m */; };
+		E5232937147C8CEB00D1009D /* testQDViewControllerr.m in Sources */ = {isa = PBXBuildFile; fileRef = E5232935147C8CEA00D1009D /* testQDViewControllerr.m */; };
+		E5232938147C8CEB00D1009D /* testQDViewControllerr.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5232936147C8CEB00D1009D /* testQDViewControllerr.xib */; };
+		E523293E147CB68700D1009D /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E523293B147CB68700D1009D /* AppModel.m */; };
+		E5FBDAD1147CBE6900E938E2 /* test01Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5FBDACF147CBE6900E938E2 /* test01Model.xcdatamodeld */; };
+		E5FBDAD4147CBEC200E938E2 /* Names.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FBDAD3147CBEC200E938E2 /* Names.m */; };
+		E5FBDAD7147CBF5200E938E2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FBDAD6147CBF5200E938E2 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5232923147C837100D1009D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E523291A147C837100D1009D /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		E5232925147C837100D1009D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E523291A147C837100D1009D /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		E5232927147C83C000D1009D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E523291A147C837100D1009D /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52328FD147C7CDC00D1009D /* TestQD2_value.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestQD2_value.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5232901147C7CDC00D1009D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5232903147C7CDC00D1009D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5232905147C7CDC00D1009D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5232909147C7CDC00D1009D /* TestQD2_value-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestQD2_value-Info.plist"; sourceTree = "<group>"; };
+		E523290B147C7CDC00D1009D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E523290D147C7CDC00D1009D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E523290F147C7CDC00D1009D /* TestQD2_value-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestQD2_value-Prefix.pch"; sourceTree = "<group>"; };
+		E5232910147C7CDC00D1009D /* lmvAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lmvAppDelegate.h; sourceTree = "<group>"; };
+		E5232911147C7CDC00D1009D /* lmvAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lmvAppDelegate.m; sourceTree = "<group>"; };
+		E5232918147C7D1E00D1009D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		E523291A147C837100D1009D /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = "escoz-QuickDialog-6caf8ff/QuickDialog.xcodeproj"; sourceTree = "<group>"; };
+		E523292D147C890A00D1009D /* testQDChangeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testQDChangeValue.h; sourceTree = "<group>"; };
+		E523292E147C890A00D1009D /* testQDChangeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testQDChangeValue.m; sourceTree = "<group>"; };
+		E5232934147C8CEA00D1009D /* testQDViewControllerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testQDViewControllerr.h; sourceTree = "<group>"; };
+		E5232935147C8CEA00D1009D /* testQDViewControllerr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testQDViewControllerr.m; sourceTree = "<group>"; };
+		E5232936147C8CEB00D1009D /* testQDViewControllerr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testQDViewControllerr.xib; sourceTree = "<group>"; };
+		E523293A147CB68700D1009D /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		E523293B147CB68700D1009D /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		E5FBDAD0147CBE6900E938E2 /* test01Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test01Model.xcdatamodel; sourceTree = "<group>"; };
+		E5FBDAD2147CBEC200E938E2 /* Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Names.h; sourceTree = "<group>"; };
+		E5FBDAD3147CBEC200E938E2 /* Names.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Names.m; sourceTree = "<group>"; };
+		E5FBDAD6147CBF5200E938E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52328FA147C7CDC00D1009D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FBDAD7147CBF5200E938E2 /* CoreData.framework in Frameworks */,
+				E5232929147C83D700D1009D /* libQuickDialog.a in Frameworks */,
+				E5232902147C7CDC00D1009D /* UIKit.framework in Frameworks */,
+				E5232904147C7CDC00D1009D /* Foundation.framework in Frameworks */,
+				E5232906147C7CDC00D1009D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52328F2147C7CDC00D1009D = {
+			isa = PBXGroup;
+			children = (
+				E5FBDAD5147CBED700E938E2 /* Model */,
+				E5232939147CB68700D1009D /* AppModel */,
+				E523291A147C837100D1009D /* QuickDialog.xcodeproj */,
+				E5232907147C7CDC00D1009D /* TestQD2_value */,
+				E5232900147C7CDC00D1009D /* Frameworks */,
+				E52328FE147C7CDC00D1009D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52328FE147C7CDC00D1009D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52328FD147C7CDC00D1009D /* TestQD2_value.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5232900147C7CDC00D1009D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FBDAD6147CBF5200E938E2 /* CoreData.framework */,
+				E5232901147C7CDC00D1009D /* UIKit.framework */,
+				E5232903147C7CDC00D1009D /* Foundation.framework */,
+				E5232905147C7CDC00D1009D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5232907147C7CDC00D1009D /* TestQD2_value */ = {
+			isa = PBXGroup;
+			children = (
+				E5232910147C7CDC00D1009D /* lmvAppDelegate.h */,
+				E5232911147C7CDC00D1009D /* lmvAppDelegate.m */,
+				E5232934147C8CEA00D1009D /* testQDViewControllerr.h */,
+				E5232935147C8CEA00D1009D /* testQDViewControllerr.m */,
+				E5232936147C8CEB00D1009D /* testQDViewControllerr.xib */,
+				E523292D147C890A00D1009D /* testQDChangeValue.h */,
+				E523292E147C890A00D1009D /* testQDChangeValue.m */,
+				E5232918147C7D1E00D1009D /* MainWindow.xib */,
+				E5232908147C7CDC00D1009D /* Supporting Files */,
+			);
+			path = TestQD2_value;
+			sourceTree = "<group>";
+		};
+		E5232908147C7CDC00D1009D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5232909147C7CDC00D1009D /* TestQD2_value-Info.plist */,
+				E523290A147C7CDC00D1009D /* InfoPlist.strings */,
+				E523290D147C7CDC00D1009D /* main.m */,
+				E523290F147C7CDC00D1009D /* TestQD2_value-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E523291B147C837100D1009D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5232924147C837100D1009D /* QuickDialogExample.app */,
+				E5232926147C837100D1009D /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5232939147CB68700D1009D /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				E523293A147CB68700D1009D /* AppModel.h */,
+				E523293B147CB68700D1009D /* AppModel.m */,
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		E5FBDAD5147CBED700E938E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5FBDACF147CBE6900E938E2 /* test01Model.xcdatamodeld */,
+				E5FBDAD2147CBEC200E938E2 /* Names.h */,
+				E5FBDAD3147CBEC200E938E2 /* Names.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52328FC147C7CDC00D1009D /* TestQD2_value */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5232915147C7CDC00D1009D /* Build configuration list for PBXNativeTarget "TestQD2_value" */;
+			buildPhases = (
+				E52328F9147C7CDC00D1009D /* Sources */,
+				E52328FA147C7CDC00D1009D /* Frameworks */,
+				E52328FB147C7CDC00D1009D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5232928147C83C000D1009D /* PBXTargetDependency */,
+			);
+			name = TestQD2_value;
+			productName = TestQD2_value;
+			productReference = E52328FD147C7CDC00D1009D /* TestQD2_value.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52328F4147C7CDC00D1009D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "LMV Consulting";
+			};
+			buildConfigurationList = E52328F7147C7CDC00D1009D /* Build configuration list for PBXProject "TestQD2_value" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E52328F2147C7CDC00D1009D;
+			productRefGroup = E52328FE147C7CDC00D1009D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E523291B147C837100D1009D /* Products */;
+					ProjectRef = E523291A147C837100D1009D /* QuickDialog.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E52328FC147C7CDC00D1009D /* TestQD2_value */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E5232924147C837100D1009D /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = E5232923147C837100D1009D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5232926147C837100D1009D /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = E5232925147C837100D1009D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52328FB147C7CDC00D1009D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E523290C147C7CDC00D1009D /* InfoPlist.strings in Resources */,
+				E5232919147C7D1E00D1009D /* MainWindow.xib in Resources */,
+				E5232938147C8CEB00D1009D /* testQDViewControllerr.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52328F9147C7CDC00D1009D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E523290E147C7CDC00D1009D /* main.m in Sources */,
+				E5232912147C7CDC00D1009D /* lmvAppDelegate.m in Sources */,
+				E523292F147C890A00D1009D /* testQDChangeValue.m in Sources */,
+				E5232937147C8CEB00D1009D /* testQDViewControllerr.m in Sources */,
+				E523293E147CB68700D1009D /* AppModel.m in Sources */,
+				E5FBDAD1147CBE6900E938E2 /* test01Model.xcdatamodeld in Sources */,
+				E5FBDAD4147CBEC200E938E2 /* Names.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5232928147C83C000D1009D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = E5232927147C83C000D1009D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E523290A147C7CDC00D1009D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E523290B147C7CDC00D1009D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5232913147C7CDC00D1009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5232914147C7CDC00D1009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5232916147C7CDC00D1009D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestQD2_value/TestQD2_value-Prefix.pch";
+				INFOPLIST_FILE = "TestQD2_value/TestQD2_value-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5232917147C7CDC00D1009D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestQD2_value/TestQD2_value-Prefix.pch";
+				INFOPLIST_FILE = "TestQD2_value/TestQD2_value-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52328F7147C7CDC00D1009D /* Build configuration list for PBXProject "TestQD2_value" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5232913147C7CDC00D1009D /* Debug */,
+				E5232914147C7CDC00D1009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5232915147C7CDC00D1009D /* Build configuration list for PBXNativeTarget "TestQD2_value" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5232916147C7CDC00D1009D /* Debug */,
+				E5232917147C7CDC00D1009D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5FBDACF147CBE6900E938E2 /* test01Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5FBDAD0147CBE6900E938E2 /* test01Model.xcdatamodel */,
+			);
+			currentVersion = E5FBDAD0147CBE6900E938E2 /* test01Model.xcdatamodel */;
+			path = test01Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E52328F4147C7CDC00D1009D /* Project object */;
+}
