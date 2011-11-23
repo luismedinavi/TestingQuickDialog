@@ -15,8 +15,7 @@
 - (void) viewDidLoad{
     [super viewDidLoad];
     
-    [[AppModel sharedModel] addManagedObject];  
-    
+//    [[AppModel sharedModel] addManagedObject];  
 //    NSString *msg = @"New Name created";
 //    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Testing Values"
 //                                                    message:msg delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
