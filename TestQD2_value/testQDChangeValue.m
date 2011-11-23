@@ -54,6 +54,7 @@
 //    [self loading:YES];
     
     testQDChangeValue *info = [[testQDChangeValue alloc] init];
+    
     [self.root fetchValueIntoObject:info];
     
     Names *newName = [[[AppModel sharedModel] listOfNames] objectAtIndex:0]; 
@@ -61,7 +62,7 @@
     newName.lastName = info.lastName.text;
     newName.webPage  = info.webPage.text;
     
-    [[AppModel sharedModel] saveChangesToDataStore];
+//    [[AppModel sharedModel] saveChangesToDataStore];
     
     NSString *msg = @"Name Values has been Updated";
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
