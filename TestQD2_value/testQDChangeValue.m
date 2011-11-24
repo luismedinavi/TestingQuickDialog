@@ -57,10 +57,10 @@
     
     [self.root fetchValueIntoObject:info];
     
-    Names *newName = [[[AppModel sharedModel] listOfNames] objectAtIndex:0]; 
-    newName.name     = info.name.text ;
-    newName.lastName = info.lastName.text;
-    newName.webPage  = info.webPage.text;
+//    Names *newName = [[[AppModel sharedModel] listOfNames] objectAtIndex:0]; 
+//    newName.name     = info.name.text ;
+//    newName.lastName = info.lastName.text;
+//    newName.webPage  = info.webPage.text;
     
 //    [[AppModel sharedModel] saveChangesToDataStore];
     
